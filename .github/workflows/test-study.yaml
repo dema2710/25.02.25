@@ -34,7 +34,7 @@ jobs:
 
   checks_needed:
     needs: [welcome_script, welcome_script_in_parallel]
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latestpip install poetry
     steps:
       - name: Welcome part dependency
         run: echo "Hello, guys 🥺 from  dependencies"
