@@ -1,7 +1,8 @@
 import base64
+import io
+
 import pyotp
 import qrcode
-import io
 
 secret = "xdldkflfkb"
 
